@@ -9,7 +9,7 @@ import {  useSelector } from "react-redux";
 
 
 const Stack = createNativeStackNavigator();
-
+// 
 const Navigation = () => {
   //* Geting the total item using selector
   const itemTotal = useSelector((state) =>
